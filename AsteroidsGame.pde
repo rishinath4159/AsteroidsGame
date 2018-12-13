@@ -1,10 +1,18 @@
 //your variable declarations here
+
+Spaceship spaceship;
+
 public void setup() 
 {
-  //your code here
+	spaceship = new Spaceship();
+	size(300,300);
 }
 public void draw() 
 {
-  //your code here
+	spaceship.show();
 }
 
+public void keyPressed()
+{
+	println("Key Pressed!");
+}
